@@ -10,6 +10,10 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --color-primary-system: var(--primary-system);
+  --color-secondary-system: var(--secondary-system);
+  --color-tertiary-system: var(--tertiary-system);
+  --color-quaternary-system: var(--quaternary-system);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -76,10 +80,10 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
-  --primary-system: "#7F56D8";
-  --secondary-system: "#F3EFFC";
-  --tertiary-system: "#E7E7E7"
-  --quaternary-system: "#84818A";
+  --primary-system: oklch(0.5638 0.1904 293.95);
+  --secondary-system: oklch(0.959 0.0178 300.07);
+  --tertiary-system: oklch(0.928 0 0);
+  --quaternary-system: oklch(0.6088 0.0139 301.13);
 }
 
 .dark {
