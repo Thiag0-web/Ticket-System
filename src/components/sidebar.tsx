@@ -7,7 +7,7 @@ interface SidebarProps {
 
 export function Sidebar({ openMenu }: SidebarProps) {
   return (
-    <div className="h-full pt-7 border-r border-tertiary-system w-[250px] data-[open=false]:-ml-[250px] transition-all" data-open={openMenu}>
+    <div className="h-full bg-white pt-7 border-r border-tertiary-system w-[250px] data-[open=false]:-ml-[250px] transition-all" data-open={openMenu}>
       <h1 className="text-center text-[#2E2C34] mb-12 font-semibold text-2xl uppercase">
         Ticket Lead
       </h1>
